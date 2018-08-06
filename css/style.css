@@ -1,0 +1,236 @@
+/*-----general rules and classes-----*/
+
+body {
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-size:16px;
+  margin: 0;
+}
+
+.centered {
+  width: 65%;
+  margin: 0 auto;
+  color: white;
+}
+
+.float-l {
+  float: left;
+}
+
+.clear-floats {
+  clear: both;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+/*----- NAVIGATION BAR -----*/
+
+nav {
+  background-color: #C12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  height: 30px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  
+}
+
+.acronym {
+  margin: 0 20px 0;
+  float:left;
+}
+
+.heart {
+  float:left;
+  margin-left: 20px;
+}
+
+/*----- HEADER -----*/
+
+header {
+  background-color: rgb(32, 101, 136);
+  color: white;
+  font-size: 1.25em; 
+  font-weight: 200;
+  background-image: url(../images/city-scape.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+header p, h1 {
+  width: 50%;
+  text-align: left;
+}
+
+/*----- HEADER DIV 1 -----*/
+
+
+.search-bar {
+  color: white;
+  margin: 1% 1%;
+  width: 98%;
+  height: 40px;
+}
+
+.search-bar input {
+  width: 73%;
+  height: 36px;
+  float: left;
+  margin-left: 20px;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.search-bar input::placeholder{
+  font-size: 1.2em;
+  padding-left: 20px;
+}
+
+.search-bar button {
+  width: 40px;
+  height: 40px;
+  float: left;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgba(255,255,255,0.3);
+}
+
+.search-bar a {
+  color: white;
+  text-decoration: none;
+  float: left;
+  margin: 10px 10px 0 10px;
+}
+
+/*----- HEADER DIV 2 -----*/
+
+
+header .button { 
+  margin: 20px 0 0 0;
+  background-color: rgb(240, 146, 51);
+}
+
+/*----- SECTION 1 - discover -----*/
+
+#discover {
+  background-color: rgb(39, 53, 71);
+  height: 325px;
+  padding: 75px 0;
+}
+
+.discover-items {
+  width: 45%;
+  margin: 0 0 0 5%;
+}
+
+#discover h2 {
+  width: 80%; 
+}
+
+#discover li{
+  margin: 20px 0;
+}
+
+#discover .button {
+  display: block;
+  background-color: rgb(203, 56, 55);
+  width: 130px;
+  margin: 10px 0 10px 0;  
+}
+
+/*----- SECTION 2 DESCRIPTION -----*/
+
+#description {
+  background-image: url(../images/forklift.svg);
+  height: 450px;
+  position: relative;
+  font-size: 1.25em;
+}
+
+.centered-absolute {
+  display: inline-block;
+  color:white;
+  width: 20%;
+  padding: 20px;
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+
+#description .button {
+  background-color: rgb(49, 68, 88);
+  margin-top:10px;
+}
+
+/*----- SECTION 3 PROMOTION -----*/
+
+#promotion {
+  margin: 50px 0 400px 0;
+  text-align: center;
+}
+
+#promotion h2,h3 {
+  color: rgb(83, 88, 98);
+}
+
+#promotion h2 {
+  font-weight: 150;
+  font-size: 2em;
+}
+
+#promotion p {
+  color: rgb(135, 145, 156);
+}
+
+#promotion a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
+
+.container {
+  width: 33%;
+}
+
+.container p {
+  width: 80%;
+  padding: 0 30px
+}
+
+
+
+
+
+
+
+
+
+
+
